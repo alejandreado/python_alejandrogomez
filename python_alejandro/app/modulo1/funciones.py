@@ -1,15 +1,3 @@
-# app/modulo1/funciones.py
-"""
-funciones.py
-
-Implementa una función robusta llamada esPalindromo que:
-- Ignora espacios, puntuación, tildes y mayúsculas.
-- Comprueba si la cadena es igual a su reverso.
-- Lanza TypeError con entradas no válidas.
-
-También incluye la función auxiliar _normalizar().
-"""
-
 import unicodedata
 import re
 
@@ -64,3 +52,4 @@ def esPalindromo(cadena):
         return True
 
     return normal == normal[::-1]
+
