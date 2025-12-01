@@ -1,9 +1,3 @@
-# app/main.py
-"""
-Programa interactivo que permite al usuario introducir frases para comprobar
-si son palíndromas. Finaliza cuando el usuario escribe 'salir'.
-"""
-
 from app.modulo1.funciones import esPalindromo
 
 def interactivo():
@@ -24,3 +18,4 @@ def interactivo():
 
 if __name__ == "__main__":
     interactivo()
+
